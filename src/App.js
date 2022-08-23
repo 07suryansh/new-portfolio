@@ -7,6 +7,7 @@ import Experience from './Components/Experience';
 import Education from './Components/Education';
 import Projects from './Components/Projects';
 import Contact from './Components/Contact';
+import Certificate from './Components/Certificate';
 import {
   BrowserRouter,
   Routes,
@@ -27,6 +28,7 @@ function App() {
       <Route path='/Experience' element={ <Experience/>}/>
       <Route path='/Education' element={ <Education/>}/>
       <Route path='/Projects' element={ <Projects/>}/>
+      <Route path='/Certificate' element={ <Certificate/>}/>
       <Route path='/Contact' element={ <Contact/>}/>
      
     </Routes>

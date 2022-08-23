@@ -42,6 +42,12 @@ export default function Navbar() {
           </li>
           </Link>
 
+          <Link to="Certificate">
+          <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl">
+          Certificates
+          </li>
+          </Link>
+
           <Link to="Contact">
           <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl">
           Contact
