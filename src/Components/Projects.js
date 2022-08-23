@@ -18,25 +18,25 @@ export default function Projects() {
       <div>
               <div className="snap-x flex snap-mandatory overflow-scroll mx-44 my-32">
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p1} />
+                    <img src={p1} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p2} />
+                    <img src={p2} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p3}/>
+                    <img src={p3} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p4}/>
+                    <img src={p4} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p5}/>
+                    <img src={p5} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p6}/>
+                    <img src={p6} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p7}/>
+                    <img src={p7} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div> 
               </div>
       </div>
