@@ -1,7 +1,14 @@
 import React from 'react';
 import Me from "../Images/MySelfie.png";
+import mail from "../Images/mail.webp";
+import github from "../Images/github.png";
+import linkedin from "../Images/linkedin.png";
+
 
 export default function Home() {
+
+
+
 const openInNewTab=url=>{
     window.open(url,'_blank','noopener,noreferrer');
 }
@@ -35,6 +42,19 @@ const openInNewTab=url=>{
           >
             Resume
           </button>
+          <div className="flex flex-row p-4">
+
+            <a href="https://www.linkedin.com/in/suryansh-singh-bisen-297ba3138/">
+            <img src={linkedin} alt="" className="w-[2.5rem] h-[2.5rem] my-8 mx-4 transition ease-in-out delay-900 hover:-translate-y-1 hover:scale-110 duration-200 cursor-pointer"/>
+            </a>
+            <a href="https://github.com/07suryansh">
+            <img src={github} alt="" className="w-[2.5rem] h-[2.5rem] my-8 mx-4 transition ease-in-out delay-900 hover:-translate-y-1 hover:scale-110 duration-200 cursor-pointer"/>
+            </a>
+            <a href="mailto:07suryansh@gmail.com">
+            <img src={mail} alt="" className="w-[3rem] h-[3rem] my-8 mx-4 transition ease-in-out delay-900 hover:-translate-y-1 hover:scale-110 duration-200 cursor-pointer"/>
+            </a>
+
+          </div>
         </div>
         <div className="container pl-[8rem] drop-shadow-2xl">
           <img
