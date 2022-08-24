@@ -17,22 +17,22 @@ export default function Certificate() {
       <div>
               <div className="snap-x flex snap-mandatory overflow-scroll mx-44 my-24">
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={c1} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={c1} alt="NA" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={c2} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={c2} alt="NA" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={c3} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={c3} alt="NA" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={c4} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={c4} alt="NA" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={c5} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={c5} alt="NA" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={c6} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={c6} alt="NA" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                   </div>
                   
               </div>

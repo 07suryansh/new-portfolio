@@ -18,31 +18,31 @@ export default function Projects() {
       <div>
               <div className="snap-x flex snap-mandatory overflow-scroll mx-44 my-32">
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p1} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={p1} alt="na" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                     <h1 className='m-4 text-center'>Portfolio</h1>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p2} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={p2} alt="na" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                     <h1 className='m-4 text-center'>Weather Website</h1>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p3} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={p3} alt="na" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                     <h1 className='m-4 text-center'>Facebook Sign in / Sign up page clone</h1>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p4} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={p4} alt="na" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                     <h1 className='m-4 text-center'>News Website</h1>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p5} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={p5} alt="na" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                     <h1 className='m-4 text-center'>Covid vaccine registration website</h1>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p6} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={p6} alt="na" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                     <h1 className='m-4 text-center'>Sign in / Sign up page</h1>
                   </div>
                   <div className="snap-center w-[35rem] flex-shrink-0 flex-items-center justify-center mx-4 p-12">
-                    <img src={p7} className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
+                    <img src={p7} alt="na" className='transition ease-in-out delay-900  hover:-translate-y-1 hover:scale-110 duration-200 '/>
                     <h1 className='m-4 text-center'>Text Manipulator</h1>
                   </div> 
               </div>
