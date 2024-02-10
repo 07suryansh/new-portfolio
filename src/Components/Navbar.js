@@ -1,58 +1,57 @@
 import React from "react";
-import { Link } from "react-router-dom";
 export default function Navbar() {
   return (
     <div className="flex flex-auto">
       <nav className="font-sans text-lg flex ">
         <ul className="cursor-pointer flex ">
 
-        <Link to="/">
+        <a href="/">
           <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl ">
           Home
           </li>
-          </Link> 
+          </a> 
 
-          <Link to="About">
+          <a href="About">
           <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl">
            About
           </li>
-          </Link> 
+          </a> 
           
-          <Link to="Skills">
+          <a href="Skills">
           <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl">
           Skills
           </li>
-          </Link>
+          </a>
 
-          <Link to="Experience">
+          <a href="Experience">
           <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl">
           Experience
           </li>
-          </Link>
+          </a>
 
-          <Link to="Education">
+          <a href="Education">
           <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl">
           Education
           </li>
-          </Link>
+          </a>
 
-          <Link to="Projects">
+          <a href="Projects">
           <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl">
           Projects
           </li>
-          </Link>
+          </a>
 
-          <Link to="Certificate">
+          <a href="Certificate">
           <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl">
           Certificates
           </li>
-          </Link>
+          </a>
 
-          <Link to="Contact">
+          <a href="Contact">
           <li className="hover:bg-slate-200 px-6 py-4 visited:bg-slate-400 active:bg-slate-300 hover:border-solid hover:rounded-b-3xl">
           Contact
           </li>
-          </Link>
+          </a>
         </ul>
       </nav>
       
